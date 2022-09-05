@@ -1,0 +1,61 @@
+
+
+p {
+    font-family: Arial;
+}
+
+.server-list {
+    position: fixed;
+    background-color: #1f2225;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.server-icon {
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    border-radius: 35px;
+    margin-bottom: 10px;
+}
+
+
+.body {
+    margin: 0px;
+}
+
+.channels-bar {
+    background-color: #303136;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width:175px;
+    left: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.server-name {
+    color: white;
+    font-weight: 100px;
+}
+
+.channels {
+    margin-left: 10px;
+    font-family: Arial;
+    color: #797b80;
+}
+
+.hashtag {
+    margin-right: 10px;
+}
